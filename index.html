@@ -5,17 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Linguagem de Casal</title>
   
-  <!-- Configurações com SVG Base64 Embutido (Garante que funcione sem dependências externas) -->
+  <!-- Configurações para Ícone no Android / iOS / Desktop -->
   <link rel="apple-touch-icon" sizes="180x180" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='120' fill='%234a042e'/><path d='M256 120 C180 40 80 110 80 200 C80 300 256 420 256 420 C256 420 432 300 432 200 C432 110 332 40 256 120 Z' fill='none' stroke='%23f43f5e' stroke-width='32'/><circle cx='200' cy='200' r='30' fill='%23fbcfe8'/><circle cx='312' cy='200' r='30' fill='%23fbcfe8'/><path d='M256 340 C240 320 200 260 200 220 C200 200 220 180 240 200 C256 215 256 215 272 200 C292 180 312 200 312 220 C312 260 272 320 256 340 Z' fill='%23ec4899'/></svg>">
   
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='120' fill='%234a042e'/><path d='M256 120 C180 40 80 110 80 200 C80 300 256 420 256 420 C256 420 432 300 432 200 C432 110 332 40 256 120 Z' fill='none' stroke='%23f43f5e' stroke-width='32'/></svg>">
 
   <meta name="apple-mobile-web-app-title" content="Linguagem de Casal">
   <meta name="application-name" content="Linguagem de Casal">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="theme-color" content="#ec4899">
 
-  <!-- Manifest Inline PWA sem URLs externas que falham -->
-  <link rel="manifest" href='data:application/manifest+json,{"name":"Linguagem de Casal","short_name":"Linguagem Casal","start_url":".","display":"standalone","background_color":"#ffffff","theme_color":"#ec4899","icons":[{"src":"data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><rect width=\"512\" height=\"512\" rx=\"120\" fill=\"%234a042e\"/><path d=\"M256 120 C180 40 80 110 80 200 C80 300 256 420 256 420 C256 420 432 300 432 200 C432 110 332 40 256 120 Z\" fill=\"none\" stroke=\"%23f43f5e\" stroke-width=\"32\"/></svg>","sizes":"512x512","type":"image/svg+xml","purpose":"any maskable"}]}'>
+  <!-- Manifest PWA V2 com parâmetros específicos para Android -->
+  <link rel="manifest" href='data:application/manifest+json,{"name":"Linguagem de Casal","short_name":"Linguagem Casal","start_url":".","display":"standalone","background_color":"#ffffff","theme_color":"#ec4899","icons":[{"src":"data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><rect width=\"512\" height=\"512\" rx=\"120\" fill=\"%234a042e\"/><path d=\"M256 120 C180 40 80 110 80 200 C80 300 256 420 256 420 C256 420 432 300 432 200 C432 110 332 40 256 120 Z\" fill=\"none\" stroke=\"%23f43f5e\" stroke-width=\"32\"/><path d=\"M256 340 C240 320 200 260 200 220 C200 200 220 180 240 200 C256 215 256 215 272 200 C292 180 312 200 312 220 C312 260 272 320 256 340 Z\" fill=\"%23ec4899\"/></svg>","sizes":"512x512","type":"image/svg+xml","purpose":"any maskable"}]}'>
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
